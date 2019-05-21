@@ -258,7 +258,7 @@
       group: root
       mode: 0644
       force: true
-      remote_src: true
+      remote_src: false
   notify:
       - systemd restart tmp.mount
   when:
